@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, BookOpen, Lightbulb, ExternalLink } from "lucide-react";
-import ThemeToggle from "./ThemeToggle";
 import MobileMenu from "./MobileMenu";
 
 interface NavLinkProps {
@@ -83,10 +82,8 @@ export default function Header() {
             </NavLink>
           </nav>
 
-          {/* Right side: Theme toggle + Mobile menu button */}
+          {/* Right side: Mobile menu button */}
           <div className="flex items-center gap-2">
-            <ThemeToggle />
-
             {/* Mobile menu button */}
             <button
               onClick={() => setMobileMenuOpen(true)}
