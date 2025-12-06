@@ -75,14 +75,14 @@ export default function NotFound() {
       <footer className="border-t border-border py-8 mt-auto">
         <div className="container mx-auto px-4 text-center">
           <p className="font-mono text-sm text-text-muted">
-            <span className="text-accent">&gt;</span> Built with care by{" "}
+            Made with ❤️ by{" "}
             <a
               href="https://tom-panos.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-secondary hover:text-accent transition-colors"
             >
-              Tom Panos
+              Tom in Milwaukee, WI
             </a>
           </p>
         </div>
